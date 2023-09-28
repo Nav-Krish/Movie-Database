@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    padding: 5px 5px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+.card {
+    padding-bottom: 10px;
+    margin: 5px 5px;
+    text-align: center;
+    background-color: rgb(121, 121, 121);
+
+}
+
+.card-header {
+    font-family: 'verdana', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    background-color: #1b1b1bea;
+    color: white;
+
+}
+
+a {
+    color: rgb(128, 19, 0);
+}
+
+.card-text {
+    padding: 5px;
+    color: black;
+}
+
+.col {
+    padding: 3px 0;
+}
+
+input[type="text"] {
+    background: black;
+    color: white;
+}
