@@ -72,7 +72,7 @@ async function getMovieData() {
 
             var link = document.createElement("div")
             link.setAttribute("class", "card-text")
-            link.innerHTML = `IMDB Link : <a href="${a[6]} target="_blank">Click here</a>`
+            link.innerHTML = `IMDB Link : <a href="${a[6]}" target="_blank">Click here</a>`
 
             cBody.append(title, year, actors, link)
             card.append(cHeader, image, cBody)
